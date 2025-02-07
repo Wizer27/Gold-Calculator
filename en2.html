@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор золота</title>
+  <link rel="stylesheet" type="text/css" href="en.css">
+  <script src="en.js"></script>
+</head>
+<body>
+<div class="container">
+  <h2>Калькулятор золота</h2>
+
+
+  <label for="col">Количество микросхем:</label>
+  <input type="number" id="col" min="0" placeholder="Введите количество микросхем">
+
+  <label for="weights">Введите веса микросхем (через запятую):</label>
+  <input type="text" id="weights" placeholder="Например: 10, 20, 15">
+
+  <button onclick="calculateGold()">Рассчитать вес золота</button>
+
+  <h3>Результат: <span id="result">0</span> граммов золота</h3>
+</div>
+</body>
+</html>
